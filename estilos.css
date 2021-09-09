@@ -8,15 +8,73 @@
     margin-left: 50px;
     margin-right: 50px; aqui esta no auto left e right */
     margin: 0 auto;
-}
+    }
 body{
     font-family:'Josefin Slab',serif;
     font-size: 42;
     line-height: 1.6;
+    background-color:#659dbd ;
+    
 }
 .lugar{
     border: 1px solid #ccc;
     border-color: #ccc #999 #ccc #999;
     margin-bottom: 20px;
     padding: 10px;
+    background-color: white;
+}
+
+.lugar a{
+    font-weight:bold;
+    color:turquoise;
+}
+
+h1 a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+h1 a:hover{
+    background-color:green;
+    color:turquoise;
+    border-radius: 5px;
+}
+.lugar img{
+    width: 200px;
+    float: left;
+    margin:5px 10px 0 0 ;
+    border: 1px solid turquoise;
+    padding: 5 px;
+
+}
+.clear{
+    clear:both;
+}
+
+.rodape{
+    font-size: 14px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.lateral{
+    background-color:whitesmoke ;
+    border: 1px solid turquoise;
+    width:260px;
+    padding: 10px;
+    float: right;
+}
+
+.lugares{
+    width: 660px;
+    float: left;
+}
+
+.lateral h3{
+    font-size:14px;
+    margin-top: 0;
+}
+
+.lateral ol{
+    font-size: 18px;
 }
